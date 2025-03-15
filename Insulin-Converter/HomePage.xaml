@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Insulin_Converter.HomePage"
+             Title="HomePage">
+    
+    <!-- Grid Defined-->
+    <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto" RowSpacing="5" >
+
+     <!-- First Grid Banner-->
+        <StackLayout Grid.Row="0"
+                     BackgroundColor="CornflowerBlue" 
+                     Margin="0,0,0,0"
+                     Orientation="Vertical">
+
+            <Border Padding="10" >
+                <Label Text="Insulin Calculator" HorizontalOptions="Center" 
+                 FontSize="Medium" TextColor="Black" FontAttributes="Bold" FontFamily="Times New Roman"/>
+            </Border>
+        </StackLayout>
+        
+     <!-- Second Grid Search Box-->
+        <StackLayout Grid.Row="1"
+                     BackgroundColor="White"
+                     Orientation="Horizontal"
+                     Margin="0,0,0,0"
+                     HorizontalOptions="Center">
+            
+            <Border Padding="10" WidthRequest="300" >
+                <Label Text="Triple Cheese Burger" FontSize="Small" HorizontalOptions="Center" FontFamily="Times New Roman"/>
+            </Border>
+
+        </StackLayout>
+        
+    </Grid>
+</ContentPage>
