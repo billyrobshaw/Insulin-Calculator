@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Insulin-Converter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+aba00fe70a7b1c10198fe72c29fa0db478e83679")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e2f755bf0ee25a84124d08194482adb40d0e1d2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Insulin-Converter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Insulin-Converter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
