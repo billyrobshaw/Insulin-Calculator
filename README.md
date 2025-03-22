@@ -1,6 +1,6 @@
 This project is a mobile application that I will be developing over the next few weeks/months.
 The application will allow the user to Input a food or drink and in return will be provided the user with the 
-average amount of Carbs per serving for that input. The application will then convert this value into the "reccomend"
+average amount of Carbs per serving for that input. The application will then convert this value into the "recommend"
 amount of Insulin a Type 1 Diabetic should take for the before consuming the food/drink. Screenshots of the Application 
 will be provided later on in the Development of the project.
 
