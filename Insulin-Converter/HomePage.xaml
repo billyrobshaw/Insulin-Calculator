@@ -27,7 +27,7 @@
                      HorizontalOptions="Center">
             
             <Border Padding="10" WidthRequest="300" >
-                <Label Text="Triple Cheese Burger" FontSize="Small" HorizontalOptions="Center" FontFamily="Times New Roman"/>
+                <Label x:Name="Itemlbl" Text="Triple Cheese Burger" FontSize="Small" HorizontalOptions="Center" FontFamily="Times New Roman"/>
             </Border>
 
         </StackLayout>
@@ -39,7 +39,7 @@
 
             <Label Text="Name of Item:" FontSize="Medium" FontFamily="Times New Roman" Margin="0,0,5,0"/>
 
-            <Label Text="Big Mac" FontSize="Medium" FontFamily="Times New Roman"/>
+            <Label x:Name="Namelbl" Text="Big Mac" FontSize="Medium" FontFamily="Times New Roman"/>
 
         </StackLayout>
      <!-- Fourth Grid Amount of Carbs for item-->
@@ -50,7 +50,7 @@
 
             <Label Text="Amount of Carbohydrates:" FontSize="Medium" FontFamily="Times New Roman" Margin="0,0,5,0"/>
 
-            <Label Text="44g" FontSize="Medium" FontFamily="Times New Roman"/>
+            <Label x:Name="Carblbl" Text="44g" FontSize="Medium" FontFamily="Times New Roman"/>
 
 
         </StackLayout>
@@ -62,7 +62,7 @@
 
             <Label Text="Carboydrates Per Serving:" FontSize="Medium" FontFamily="Times New Roman" Margin="0,0,5,0" />
 
-            <Label Text="1 Burger" FontSize="Medium" FontFamily="Times New Roman" />
+            <Label x:Name="Servinglbl" Text="1 Burger" FontSize="Medium" FontFamily="Times New Roman" />
 
         </StackLayout>
 
@@ -73,7 +73,7 @@
 
             <Label Text="Recommened Insulin intake:" FontSize="Medium" FontFamily="Times New Roman" Margin="0,0,5,0" />
 
-            <Label Text="4 Units Required" FontSize="Medium" FontFamily="Times New Roman"/>
+            <Label  x:Name="Isulinlbl" Text="4 Units Required" FontSize="Medium" FontFamily="Times New Roman"/>
 
 
 
