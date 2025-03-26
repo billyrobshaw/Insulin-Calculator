@@ -29,6 +29,24 @@ namespace Insulin_Converter.Services
             //Get request
             var response = await httpClient.GetStringAsync(string.Format("https://foodapi.calorieking.com/v1/foods?query=region=uk&query={0}&fields=$summary,nutrients", Item));
             return JsonConvert.DeserializeObject<Root>(response);
+
+        }
+
+        public static async Task<Root> GetServing(string Serving)
+        {
+            //Sets HttpClient
+            var httpClient = new HttpClient();
+
+            //Authorization access using access token
+            string username = "db2592b4-191b-4643-a85b-d0dc8d3c73de";
+            string password = "";
+            string credentials = Convert.ToBase64String(Encoding.ASCII.GetBytes($"{username}:{password}"));
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", credentials);
+
+            //Get request
+            var response = await httpClient.GetStringAsync(string.Format("https://foodapi.calorieking.com/v1/foods?query=region=uk&query={0}&fields=$summary,servings", Serving));
+            return JsonConvert.DeserializeObject<Root>(response);
+
         }
 
     }

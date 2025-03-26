@@ -42,8 +42,21 @@
             <Label x:Name="Namelbl" Text="" FontSize="Medium" FontFamily="Times New Roman"/>
 
         </StackLayout>
-     <!-- Fourth Grid Amount of Carbs for item-->
-        <StackLayout Grid.Row="3"
+
+        <!-- Fourth Grid Sevrings in Item-->
+        <StackLayout Grid.Row="3" 
+                Orientation="Horizontal"
+                Margin="0, 40, 0, 0"
+                HorizontalOptions="Center">
+
+            <Label Text="Carboydrates Per Serving:" FontSize="Medium" FontFamily="Times New Roman" Margin="0,0,5,0" />
+
+            <Label x:Name="Servinglbl" Text="" FontSize="Medium" FontFamily="Times New Roman" />
+
+        </StackLayout>
+
+        <!-- Firth Grid Amount of Carbs for item-->
+        <StackLayout Grid.Row="4"
                      Orientation="Horizontal"
                      Margin="0, 40, 0, 0"
                      HorizontalOptions="Center">
@@ -54,17 +67,7 @@
 
 
         </StackLayout>
-     <!-- Fifth Grid Sevrings in Item-->
-        <StackLayout Grid.Row="4" 
-                     Orientation="Horizontal"
-                     Margin="0, 40, 0, 0"
-                     HorizontalOptions="Center">
-
-            <Label Text="Carboydrates Per Serving:" FontSize="Medium" FontFamily="Times New Roman" Margin="0,0,5,0" />
-
-            <Label x:Name="Servinglbl" Text="" FontSize="Medium" FontFamily="Times New Roman" />
-
-        </StackLayout>
+     
 
         <StackLayout Grid.Row="5"
                      Orientation="Horizontal"

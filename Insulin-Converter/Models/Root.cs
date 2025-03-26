@@ -18,6 +18,8 @@ namespace Insulin_Converter.Models
         public string revisionId { get; set; }
         public Brand brand { get; set; }
         public string name { get; set; }
+
+        public List<Serving> servings { get; set; }
         public string classification { get; set; }
         public Nutrients nutrients { get; set; }
     }
@@ -53,6 +55,26 @@ namespace Insulin_Converter.Models
         public Metadata metadata { get; set; }
         public List<Food> foods { get; set; }
     }
+
+    // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
+
+    public class DefaultServing
+    {
+        public string name { get; set; }
+        public double scale { get; set; }
+        public string type { get; set; }
+        public bool isDefault { get; set; }
+    }
+
+    public class Serving
+    {
+        public string name { get; set; }
+        public double scale { get; set; }
+        public string type { get; set; }
+        public bool isDefault { get; set; }
+    }
+
+
 
 
 }

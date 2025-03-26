@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Visual Studio Projects\\Insulin-Converter\\Insulin-Converter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB70C3EF-C054-4B93-9198-76E4D9ED8EF4}|Insulin-Converter\\Insulin-Converter.csproj|d:\\visual studio projects\\insulin-converter\\insulin-converter\\insulin-converter\\services\\apiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB70C3EF-C054-4B93-9198-76E4D9ED8EF4}|Insulin-Converter\\Insulin-Converter.csproj|solutionrelative:insulin-converter\\services\\apiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB70C3EF-C054-4B93-9198-76E4D9ED8EF4}|Insulin-Converter\\Insulin-Converter.csproj|d:\\visual studio projects\\insulin-converter\\insulin-converter\\insulin-converter\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DB70C3EF-C054-4B93-9198-76E4D9ED8EF4}|Insulin-Converter\\Insulin-Converter.csproj|solutionrelative:insulin-converter\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DB70C3EF-C054-4B93-9198-76E4D9ED8EF4}|Insulin-Converter\\Insulin-Converter.csproj|d:\\visual studio projects\\insulin-converter\\insulin-converter\\insulin-converter\\models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB70C3EF-C054-4B93-9198-76E4D9ED8EF4}|Insulin-Converter\\Insulin-Converter.csproj|solutionrelative:insulin-converter\\models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB70C3EF-C054-4B93-9198-76E4D9ED8EF4}|Insulin-Converter\\Insulin-Converter.csproj|d:\\visual studio projects\\insulin-converter\\insulin-converter\\insulin-converter\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB70C3EF-C054-4B93-9198-76E4D9ED8EF4}|Insulin-Converter\\Insulin-Converter.csproj|solutionrelative:insulin-converter\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB70C3EF-C054-4B93-9198-76E4D9ED8EF4}|Insulin-Converter\\Insulin-Converter.csproj|d:\\visual studio projects\\insulin-converter\\insulin-converter\\insulin-converter\\services\\apiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB70C3EF-C054-4B93-9198-76E4D9ED8EF4}|Insulin-Converter\\Insulin-Converter.csproj|solutionrelative:insulin-converter\\services\\apiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB70C3EF-C054-4B93-9198-76E4D9ED8EF4}|Insulin-Converter\\Insulin-Converter.csproj|d:\\visual studio projects\\insulin-converter\\insulin-converter\\insulin-converter\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DB70C3EF-C054-4B93-9198-76E4D9ED8EF4}|Insulin-Converter\\Insulin-Converter.csproj|solutionrelative:insulin-converter\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +26,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Root.cs",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\Insulin-Converter\\Insulin-Converter\\Insulin-Converter\\Models\\Root.cs",
+              "RelativeDocumentMoniker": "Insulin-Converter\\Models\\Root.cs",
+              "ToolTip": "D:\\Visual Studio Projects\\Insulin-Converter\\Insulin-Converter\\Insulin-Converter\\Models\\Root.cs",
+              "RelativeToolTip": "Insulin-Converter\\Models\\Root.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T14:46:00.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HomePage.xaml.cs",
               "DocumentMoniker": "D:\\Visual Studio Projects\\Insulin-Converter\\Insulin-Converter\\Insulin-Converter\\HomePage.xaml.cs",
               "RelativeDocumentMoniker": "Insulin-Converter\\HomePage.xaml.cs",
               "ToolTip": "D:\\Visual Studio Projects\\Insulin-Converter\\Insulin-Converter\\Insulin-Converter\\HomePage.xaml.cs",
               "RelativeToolTip": "Insulin-Converter\\HomePage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T10:49:40.723Z",
               "EditorCaption": ""
@@ -44,38 +57,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Root.cs",
-              "DocumentMoniker": "D:\\Visual Studio Projects\\Insulin-Converter\\Insulin-Converter\\Insulin-Converter\\Models\\Root.cs",
-              "RelativeDocumentMoniker": "Insulin-Converter\\Models\\Root.cs",
-              "ToolTip": "D:\\Visual Studio Projects\\Insulin-Converter\\Insulin-Converter\\Insulin-Converter\\Models\\Root.cs",
-              "RelativeToolTip": "Insulin-Converter\\Models\\Root.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T11:36:21.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ApiServices.cs",
               "DocumentMoniker": "D:\\Visual Studio Projects\\Insulin-Converter\\Insulin-Converter\\Insulin-Converter\\Services\\ApiServices.cs",
               "RelativeDocumentMoniker": "Insulin-Converter\\Services\\ApiServices.cs",
               "ToolTip": "D:\\Visual Studio Projects\\Insulin-Converter\\Insulin-Converter\\Insulin-Converter\\Services\\ApiServices.cs",
               "RelativeToolTip": "Insulin-Converter\\Services\\ApiServices.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T10:30:20.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HomePage.xaml",
               "DocumentMoniker": "D:\\Visual Studio Projects\\Insulin-Converter\\Insulin-Converter\\Insulin-Converter\\HomePage.xaml",
               "RelativeDocumentMoniker": "Insulin-Converter\\HomePage.xaml",
               "ToolTip": "D:\\Visual Studio Projects\\Insulin-Converter\\Insulin-Converter\\Insulin-Converter\\HomePage.xaml",
               "RelativeToolTip": "Insulin-Converter\\HomePage.xaml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADMAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-13T16:11:12.564Z",
               "EditorCaption": ""
