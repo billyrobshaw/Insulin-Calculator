@@ -19,9 +19,15 @@ public partial class HomePage : ContentPage
         Namelbl.Text = results.foods[0].brand.name;
         Carblbl.Text = results.foods[0].nutrients.netCarbs.ToString();
 
+        var insulin = Math.Round(results.foods[0].nutrients.netCarbs / 10);
+
+        Isulinlbl.Text = insulin.ToString();
+
 
         var ServingResults = await ApiServices.GetServing("Pizza");
         Servinglbl.Text = ServingResults.foods[0].servings[0].name;
+
+        
     }
 
 }
