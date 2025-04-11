@@ -24,11 +24,15 @@
                      BackgroundColor="White"
                      Orientation="Horizontal"
                      Margin="0,0,0,0"
-                     HorizontalOptions="Center">
-            
+                     HorizontalOptions="End">
+
             <Border Padding="10" WidthRequest="300" >
                 <Label x:Name="Itemlbl" Text="" FontSize="Small" HorizontalOptions="Center" FontFamily="Times New Roman"/>
             </Border>
+
+            <ImageButton Source="searchicon.png" HeightRequest="5" WidthRequest="5" HorizontalOptions="Center" Clicked="SearchClicked"/>
+
+
 
         </StackLayout>
      <!-- Third Grid Item Name from search-->

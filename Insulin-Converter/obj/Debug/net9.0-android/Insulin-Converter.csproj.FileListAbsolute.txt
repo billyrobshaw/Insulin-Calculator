@@ -937,3 +937,4 @@ D:\Visual Studio Projects\Insulin-Converter\Insulin-Converter\Insulin-Converter\
 D:\Visual Studio Projects\Insulin-Converter\Insulin-Converter\Insulin-Converter\obj\Debug\net9.0-android\stamp\_ResolveLibraryProjectImports.stamp
 D:\Visual Studio Projects\Insulin-Converter\Insulin-Converter\Insulin-Converter\obj\Debug\net9.0-android\Insulin-Converter.sourcelink.json
 D:\Visual Studio Projects\Insulin-Converter\Insulin-Converter\Insulin-Converter\obj\Debug\net9.0-android\android\assets\x86_64\Newtonsoft.Json.dll
+D:\Visual Studio Projects\Insulin-Converter\Insulin-Converter\Insulin-Converter\obj\Debug\net9.0-android\resizetizer\r\drawable\searchicon.png
