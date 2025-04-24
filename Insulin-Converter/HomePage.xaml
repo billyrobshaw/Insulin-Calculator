@@ -5,7 +5,7 @@
              Title="HomePage">
     
     <!-- Grid Defined-->
-    <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto" RowSpacing="5" >
+    <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto" RowSpacing="0" >
 
      <!-- First Grid Banner-->
         <StackLayout Grid.Row="0"
@@ -13,7 +13,7 @@
                      Margin="0,0,0,0"
                      Orientation="Vertical">
 
-            <Border Padding="10" >
+            <Border StrokeThickness="2" Padding="10" >
                 <Label Text="Insulin Calculator" HorizontalOptions="Center" 
                  FontSize="Medium" TextColor="Black" FontAttributes="Bold" FontFamily="Times New Roman"/>
             </Border>
@@ -26,7 +26,7 @@
                      Margin="0,0,0,0"
                      HorizontalOptions="End">
 
-            <Border Padding="10" WidthRequest="300" >
+            <Border Stroke="CornflowerBlue" StrokeThickness="3" StrokeShape="RoundRectangle 40, 0, 0, 40" Padding="10" WidthRequest="300">
                 <Label x:Name="Itemlbl" Text="" FontSize="Small" HorizontalOptions="Center" FontFamily="Times New Roman"/>
             </Border>
 
@@ -38,53 +38,86 @@
      <!-- Third Grid Item Name from search-->
         <StackLayout Grid.Row="2"
                      Orientation="Horizontal"
-                     Margin="0,40,0,0"
-                     HorizontalOptions="Center">
+                     Margin="3,40,0,0"
+                     HorizontalOptions="Start">
 
-            <Label Text="Name of Item:" FontSize="Medium" FontFamily="Times New Roman" Margin="0,0,5,0"/>
-
+            <Border Stroke="CornflowerBlue" StrokeThickness="3"  WidthRequest="4"  HeightRequest="35"/>
+            <Label Text="Name of Item:" FontSize="Medium" FontFamily="Times New Roman" Margin="0,0,0,0"/>
             <Label x:Name="Namelbl" Text="" FontSize="Medium" FontFamily="Times New Roman"/>
+            
+
 
         </StackLayout>
 
         <!-- Fourth Grid Sevrings in Item-->
         <StackLayout Grid.Row="3" 
                 Orientation="Horizontal"
-                Margin="0, 40, 0, 0"
-                HorizontalOptions="Center">
+                Margin="3, 20, 0, 0"
+                HorizontalOptions="Start">
 
-            <Label Text="Carboydrates Per Serving:" FontSize="Medium" FontFamily="Times New Roman" Margin="0,0,5,0" />
-
+            <Border Stroke="CornflowerBlue" StrokeThickness="3"  WidthRequest="4"  HeightRequest="35"/>
+            <Label Text="Carboydrates Per Serving:" FontSize="Medium" FontFamily="Times New Roman" Margin="0,0,0,0" />
             <Label x:Name="Servinglbl" Text="" FontSize="Medium" FontFamily="Times New Roman" />
+            
 
         </StackLayout>
 
         <!-- Firth Grid Amount of Carbs for item-->
         <StackLayout Grid.Row="4"
                      Orientation="Horizontal"
-                     Margin="0, 40, 0, 0"
-                     HorizontalOptions="Center">
+                     Margin="3, 20, 0, 0"
+                     HorizontalOptions="Start">
 
+            <Border Stroke="CornflowerBlue" StrokeThickness="3"  WidthRequest="4"  HeightRequest="35"/>
             <Label Text="Amount of Carbohydrates:" FontSize="Medium" FontFamily="Times New Roman" Margin="0,0,5,0"/>
-
             <Label x:Name="Carblbl" Text="" FontSize="Medium" FontFamily="Times New Roman"/>
 
 
         </StackLayout>
-     
 
         <StackLayout Grid.Row="5"
                      Orientation="Horizontal"
-                     Margin="0, 40, 0, 0"
-                     HorizontalOptions="Center">
+                     Margin="3, 20, 0, 0"
+                     HorizontalOptions="Start">
 
+            <Border Stroke="CornflowerBlue" StrokeThickness="3"  WidthRequest="4"  HeightRequest="35"/>
             <Label Text="Recommened Insulin intake:" FontSize="Medium" FontFamily="Times New Roman" Margin="0,0,5,0" />
-
             <Label  x:Name="Isulinlbl" Text="" FontSize="Medium" FontFamily="Times New Roman"/>
-
-
 
         </StackLayout>
 
+        <StackLayout Grid.Row="6"
+             Orientation="Horizontal"
+             Margin="3, 100, 0, 0"
+             HorizontalOptions="Start">
+
+            <Border Stroke="#6ED70B" StrokeThickness="3"  WidthRequest="4"  HeightRequest="35"/>
+            <Label Text="Enter Current Blood Sugar Levels:" FontSize="Medium" FontFamily="Times New Roman" Margin="0,0,5,0" />
+            <Label x:Name="sLevel" FontSize="Medium" FontFamily="Times New Roman" Margin="0,0,5,0" />
+            
+        </StackLayout>
+
+        <StackLayout Grid.Row="7"
+             Orientation="Horizontal"
+             Margin="0, 0, 0, 0"
+             HorizontalOptions="Center">
+
+        <Button  Text="Click Here" TextColor="Black"  FontFamily="Times New Roman" FontSize="17" BackgroundColor="WhiteSmoke" 
+             BorderColor="#6ED70B" BorderWidth="3" WidthRequest="150" HeightRequest="35" Clicked="InsulinClicked"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="8"
+             Orientation="Horizontal"
+             Margin="3, 20, 0, 0"
+             HorizontalOptions="Start">
+
+            <Border Stroke="#6ED70B" StrokeThickness="3"  WidthRequest="4"  HeightRequest="35"/>
+            <Label x:Name="recInsulin" Text="" FontSize="Medium" FontFamily="Times New Roman" Margin="0,0,5,0" />
+            
+        </StackLayout>
+
+       
     </Grid>
+
+    
 </ContentPage>
